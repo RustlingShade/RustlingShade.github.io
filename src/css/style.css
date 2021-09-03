@@ -60,6 +60,7 @@ nav{
     width: 100%;
     height: 720px;
     box-shadow: 0px -10px 50px;
+    background: url(../img/resume_icon.png) 46.8% 84.4% no-repeat;
 }
 .info_about_me{
     float: left;
@@ -88,10 +89,10 @@ nav{
     text-align: center;
     border: 2px solid;
     background: none;
-    border-radius: 5px;
+    border-radius:5px;
     color: #596271;
     font-size: 13px;
-    padding: 0px 15px;
+    padding: 0px 15px 0px 30px;
     margin-top: 40px;
     font-weight: bold;
 }
@@ -101,9 +102,6 @@ nav{
     background: url(../img/my_skills_bg.jpg) center/cover no-repeat;
 }
 .my_skills{
-    float: left;
-    margin: 110px 0px 0px 875px;
-    text-transform: uppercase;
     text-align: center;
 }
 .my_skills h2{
@@ -111,7 +109,310 @@ nav{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.item_skills h4{
+    color: #cf7600;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .item_skills{
-
+    margin-top: 100px;
+    margin-left: 420px;
+}
+.item_skills p{
+    width: 200px;
+    color: #616876;
+}
+.item_skills1{
+    float: left;
+    margin-right: 90px;
+}
+.item_skills2{
+    float: left;
+    margin-right: 90px;
+}
+.item_skills3{
+    float: left;
+    margin-right: 90px;
+}
+.item_skills4{
+    float: left;
+    margin-right: 90px;
+}
+.case_bg{
+    width: 100%;
+    height: 1250px;
+}
+.case_info{
+    text-align: center;
+}
+.case_info h2{
+    font-size: 30px;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    color: #384354;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.case_info p{
+    padding: 40px 0px 40px 0px;
+    font-size: 16px;
+    color: #626976;
+}
+.image_of_site1{
+    width: 1170px;
+    height: 700px;
+}
+.info{
+    float: left;
+    width: 210px;
+    height: 190px;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.info h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #384354;
+}
+.info h4{
+    font-size: 15px;
+    color: #626976;
+    padding: 20px 0px 20px 0px;
+}
+.info input{
+    height: 45px;
+    text-align: center;
+    border: 0px solid;
+    background: #63b5ae;
+    border-radius:5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+.name{
+    width: 885px;
+    height: 180px;
+    margin-top: 40px;
+    float: left
+}
+.name h2{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #384354;
+}
+.name h4{
+    font-size: 15px;
+    color: #626976;
+}
+.cost_calculation_bg{
+    width: 100%;
+    height: 760px;
+    
+}
+.cost_calculation{
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    margin-left: 500px;
+}
+.cost_calculation h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.cost_calculation h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.cost_calculation h4{
+    font-size: 15px;
+    text-align: left;
+}
+.bg_statistic{
+    width: 100%;
+    height: 500px;
+    background: url(../img/statistic_bg.jpg) center/cover no-repeat;
+}
+.statistic{
+    text-align: center;
+}
+.statistic h2{
+    color: #263244;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.statistic h4{
+    color: #323e4f;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.statistic_info{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.statistic p{
+    color: #323e4f;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+}
+.info1{
+    float: left;
+    margin-right: 145px;
+}
+.info2{
+    float: left;
+    margin-right: 145px;
+}
+.info3{
+    float: left;
+    margin-right: 145px;
+}
+.info4{
+    float: left;
+    margin-right: 145px;
+}
+.feedback_bg{
+    width: 100%;
+    height: 600px;
+}
+.feedback{
+    float: left;
+    margin: 100px 0px 0px 600px;
+    text-align: center;
+    color: #263244;
+}
+.feedback h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.feedback1{
+    margin: 60px 0px 40px 0px;
+}
+.feedback h4{
+    font-size: 15px;
+    color: #3f495a;
+    width: 700px;
+    padding-bottom: 40px;
+}
+.feedback p{
+    font-size: 15px;
+    color: #3f495a;
+    width: 700px;
+}
+.contacts_bg{
+    width: 100%;
+    height: 810px;
+    background: url(../img/contacts_bg.jpg) center/cover no-repeat;
+}
+.contacts{
+    text-align: center;
+    width: 740px;
+    margin-left: 600px;
+}
+.contacts h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 100px 0px 30px 0px;
+}
+.contacts_orange_string{
+    padding-bottom: 35px;
+}
+.contacts h4{
+    font-size: 15px;
+    color: white;
+}
+.contacts_info{
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+.adress{
+    float: left;
+    width: 165px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.mail{
+    float: left;
+    width: 165px;
+    margin-right: 60px;
+}
+.number{
+    float: left;
+    width: 165px;
+    margin-right: 60px;
+}
+.contacts_info h4{
+    padding-top: 15px;
+}
+.send_me_message h2{
+    font-size: 20px;
+    padding: inherit;
+    margin-bottom: 50px;
+}
+.submit{
+    padding-top: 30px;
+}
+.submit input{
+    height: 45px;
+    text-align: center;
+    border: 2px solid;
+    background: none;
+    border-radius:5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+.input_text input{
+    float: left;
+    width: 340px;
+    height: 35px;
+    background: rgba(255,255,255,0.7);
+    margin-right: 30px;
+    margin-bottom: 15px;
+    
+}
+.input_text input{
+    float: left;
+    width: 340px;
+    height: 35px;
+    background: rgba(255,255,255,0.7);
+    padding-right: 20px;
+   
+}
+.send_me_message textarea{
+    width: 740px;
+    height: 95px;
+    background: rgba(255,255,255,0.7);
+}
+.end{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background: #354051;
+    padding-top: 40px;
 }

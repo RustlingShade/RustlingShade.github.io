@@ -9,24 +9,25 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+       
         <header>
             <nav>
                 <div class="logo">Роман Салбуков</div>
                 <div class="menu"><ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="">Обо мне</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">Кейсы</a></li>
+                    <li><a href="">Прайс</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Контакты</a></li>
                 </ul></div>
             </nav>
         </header>  
         <div class="main"><div class="title_container">
             <h1>Привет<br>Я Роман Салбуков</h1>
             <h4>Фулл-стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне"> 
-            <input type="submit" value="Мои работы"> 
+            <input type="button" value="Обо мне"> 
+            <input type="button" value="Мои работы"> 
         </div></div>
         <div class="about_me"><div class="info_about_me">
             <h2>Обо мне</h2>
@@ -86,29 +87,31 @@
         <div class="cost_calculation_bg"><div class="cost_calculation">
             <h2>Расчет стоимости</h2>
             <h3>Тип сайта</h3>
-            <select name="List1" id="List">
+            <div class="select1"><select name="List1" id="List1">
                <option value="1">Option 1</option>
                <option value="2">Option 2</option>
-               <option value="3" selected disabled>выберете пункт </option>  
-            </select>
+               <option value="3" selected disabled>Выберете пункт </option>  
+            </select></div>
             <h3>Дизайн</h3>
-            <select name="List1" id="List">
+            <div class="select2"><select name="List1" id="List">
                <option value="1">Option 1</option>
                <option value="2">Option 2</option>
-               <option value="3" selected disabled>выберете пункт </option>  
-            </select>
+               <option value="3" selected disabled>Выберете пункт </option>  
+            </select></div>
             <h3>Адаптивность</h3>
-            <select name="List1" id="List">
+            <div class="select3"><select name="List1" id="List">
                <option value="1">Option 1</option>
                <option value="2">Option 2</option>
-               <option value="3" selected disabled>выберете пункт </option>  
-            </select><br>
+               <option value="3" selected disabled>Выберете пункт </option>  
+            </select></div>
+            <br>
             <img src="img/gray_string.png" alt="Изображение">
             <h4>Сроки <p>0</p></h4>
             <h4>Стоимость <p>0</p></h4>
             
         </div></div>
-        <div class="bg_statistic"><div class="statistic">
+        <div class="bg_statistic">
+           <div class="statistic">
             <h2>Немного статистики</h2>
             <img src="img/orange_string.png" alt="Изображение">
             <div class="statistic_info"><div class="info1">
@@ -130,6 +133,7 @@
                 <img src="img/icon8.png" alt="Изображение">
                   <h4>????</h4>
                   <p>Наград получено</p>
+                  
             </div>
         </div></div></div>
         <div class="feedback_bg"><div class="feedback">
@@ -160,8 +164,8 @@
             </div></div>
             <div class="send_me_message">
                <h2>Оставьте мне сообщение</h2>
-                <div class="input_text"><input type="text" name="Your_name" value="" placeholder="Введите ваше имя"></div>
-                <div class="input_text"><input type="text" name="Your_mail" value="" placeholder="Введите вашу почту"></div>
+                <div class="input_text1"><input type="text" name="Your_name" value="" placeholder="Введите ваше имя"></div>
+                <div class="input_text2"><input type="text" name="Your_mail" value="" placeholder="Введите вашу почту"></div>
                   <textarea name="message" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
                   <div class="submit"><input type="submit" value="отправить"></div>
             </div></div>
